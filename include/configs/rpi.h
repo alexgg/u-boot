@@ -184,7 +184,8 @@
 	"dhcpuboot=usb start; dhcp u-boot.uimg; bootm\0" \
 	ENV_DEVICE_SETTINGS \
 	ENV_MEM_LAYOUT_SETTINGS \
-	BOOTENV
+	BOOTENV \
+	"resin_flasher_skip=1\0"
 
 
 #endif
